@@ -1,0 +1,29 @@
+.contenedor {
+  display: flex; /* el flex se usa en el contenedor y no en el hijo a diferencia del block y el inline*/
+  flex-direction: column; /* row, row-reverse, column, column-reverse */
+  /* justify-content: flex-start; */
+  width: 400px;
+  height: 400px;
+  align-items: flex-start; /* flex-start, center, flex-end, stretch */
+  justify-content: space-around; /* flex-start, center, flex-end, space-between, space-around */
+}
+
+.elemento {
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
+
+.elemento:first-child {
+  background-color: rgb(158, 82, 82);
+}
+
+.elemento:nth-child(2) {
+  background-color: rgb(59, 146, 32);
+}
+.elemento:last-child {
+  background-color: rgb(15, 11, 139);
+}
