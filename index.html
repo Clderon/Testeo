@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>UNAS</h1>
+        <nav>
+            <a href="#carreras">carreras</a>
+            <a href="#profesores">profesores</a> <!--Enlaces internos-->
+            <a href="#" target="_blank">Facebook</a> <!--Enlaces externos-->
+            <!-- noreferrer: no envía la cabecera de referrer (no se envía información del user) -->
+        </nav>
+    </header>
+
+    <main>
+        <!-- 
+        div: agrupar el contenido en bloque 
+        span: agrupar el contenido en linea
+        -->
+
+        <!-- Casi todas las etiquetas se le ponen contenido -->
+
+        <!-- Etiqueta de apertura y etiqueta de cierre-->
+
+        <h1 id="header">Universidad Nacional Agraria de la Selva</h1>
+        <!-- h1.....h6 definen la importancia del titulo (titulo subtitulo .....) -->
+        <!-- Elemento (etiqueta + contenido)-->
+
+        <p>
+            +2 años de experiencia como <strong>Universidad</strong>
+            <!-- Elementos anidados strong(destacar una parte) -->
+            <!-- Esa parte es la mas importante del párrafo-->
+            . Nacional del peru
+        </p>
+
+        <ul id="carreras">
+            <!-- lista desordenada (unordered list)-->
+            <li class="item-list">Ing.sistemas</li>
+            <!--item de la lista (list item)-->
+            <li class="item-list">Ing.ambiental</li>
+            <li class="item-list">Ing.forestal</li>
+        </ul>
+
+        <!-- 
+            id: se encarga de identificar el elemento (solo debe haber un elemento con ese identificador en el archivo html)
+            class: se encarga de identificar elementos estos se pueden repetir
+        -->
+
+        <!-- Division de los elementos (normales, repasables (sin cierre img,input), ) -->
+        <!-- atributos (globales [class,id] , específicos[src, href]) -->
+        <!-- atributo global (hidden para ocultar elementos )  -->
+
+
+        <!-- elementos reemplazables no tienen cierre  <br>, <hr>, <img>, <input>, <meta>, <link>, <base>, <area>, <col>, <embed> -->
+
+        <aside> <!--proporcionan información complementaria-->
+            <header>
+                <h3>Profesores de la Universidad nacional agraria de la selva</h3>
+            </header>
+            <ul id="profesores">
+                <li>  
+                    ing. Juan Perez
+                </li>
+                <li>
+                    ing. Maria Perez
+                </li>
+                <li>
+                    ing. Pedro Perez
+                </li>
+                <li>
+                    ing. Juan Perez
+                </li>
+            </ul>
+        </aside>
+
+        <section> <!--para definir una sección o bloque de contenido dentro de un documento web-->
+            <article>
+                <header>
+                    <h4>Sitio Web Corporativo</h4>
+                </header>
+                <p>
+                    Desarrollador de un sitio web Corporativo con una interfaz amigable y moderna
+                </p>
+
+                <p>
+                    contáctenos mediante el siguiente enlace
+                </p>
+                <a>
+                    <a href="https://www.unas.edu.pe/" target="_blank">UNAS</a>
+                </a>
+                <footer><!-- Por que es una información mas secundaria-->
+                    <small>
+                        Tecnologías utilizadas: HTML, CSS,
+                        JavaScript
+                    </small><!-- Temas de copyright explicación secundaria-->
+                </footer>
+            </article>
+
+        </section>
+    </main>
+    
+
+    <footer>
+        copyright @ 2023 - Portafolio
+    </footer>
+
+</body>
+</html>
